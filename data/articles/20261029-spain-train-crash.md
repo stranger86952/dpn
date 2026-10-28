@@ -3,6 +3,7 @@ title: "スペインで高速鉄道が追突、少なくとも68人死亡 — �
 datetime: "2026-10-29T05:03:51+09:00"
 tags:
   - news
+thumbnailAlt: "スペインの高速鉄道AVEの車両（イメージ写真）"
 ---
 
 スペイン中部トレド県ウルダで2026年10月28日、高速鉄道の列車同士が衝突し、少なくとも68人が死亡しました。地元当局の発表をスペイン紙エルパイスなどが伝えています。負傷者は77人が病院に搬送され、うち15人が重傷とされており、死傷者数はさらに増える可能性があります。
@@ -23,3 +24,5 @@ tags:
 
 - [スペインで列車事故、少なくとも68人死亡 高速鉄道が追突、脱線（朝日新聞）](https://topics.smt.docomo.ne.jp/article/asahi/nation/ASVBX3GDRVBXUHBI01QM)
 - [スペイン高速鉄道が追突事故、68人死亡 信号故障後に人為ミスか（日本経済新聞）](https://www.nikkei.com/article/DGXZQOCB28AFC0Y6A021C2000000/)
+
+（サムネイル写真：[Feranza「AVE」](https://commons.wikimedia.org/wiki/File:AVE.jpg) / Wikimedia Commons、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)。事故現場を写した写真ではありません）

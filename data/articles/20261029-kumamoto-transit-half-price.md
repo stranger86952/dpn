@@ -3,6 +3,7 @@ title: "熊本のバス・市電・鉄道がタッチ決済で半額に — 「�
 datetime: "2026-10-29T05:03:51+09:00"
 tags:
   - geography
+thumbnailAlt: "熊本市電の車両（イメージ写真）"
 ---
 
 熊本県内のバス・市電・鉄道の運賃が、クレジットカードなどのタッチ決済で50％割引になる「熊本応援プロジェクト」が、2026年10月29日から始まりました。熊本の公共交通を利用しやすくすることで、地域のにぎわいや復興を後押しする取り組みです。終了日は決まっておらず、予算上限に達し次第終了します。
@@ -39,3 +40,5 @@ tags:
 
 - [熊本のバス・市電・鉄道でタッチ決済50％割引、10月29日開始 ひのくに号も半額に（現金いらず）](https://no-genkin.com/news/55972/)
 - [「熊本応援プロジェクト」バス・市電・鉄道が半額！タッチ決済でお得に熊本旅行（トラベラーズナビ）](https://travelersnavi.com/coupon/kumamoto-ksp)
+
+（サムネイル写真：[継之助「Kumamoto City Tram 1063」](https://commons.wikimedia.org/wiki/File:Kumamoto_City_Tram_1063_20160729.jpg) / Wikimedia Commons、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)）
