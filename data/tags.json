@@ -1,0 +1,38 @@
+[
+  {
+    "id": "news",
+    "label": "ニュース"
+  },
+  {
+    "id": "tech",
+    "label": "情報"
+  },
+  {
+    "id": "math",
+    "label": "数学"
+  },
+  {
+    "id": "geography",
+    "label": "地理"
+  },
+  {
+    "id": "trend",
+    "label": "トレンド"
+  },
+  {
+    "id": "youtube",
+    "label": "YouTube"
+  },
+  {
+    "id": "roots",
+    "label": "ルーツ"
+  },
+  {
+    "id": "anime",
+    "label": "アニメ"
+  },
+  {
+    "id": "others",
+    "label": "その他"
+  }
+]

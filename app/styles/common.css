@@ -1,0 +1,240 @@
+/* File: app/styles/common.css */
+
+:root {
+  color-scheme: light;
+  --background: #fafaf8;
+  --surface: #ffffff;
+  --text: #252724;
+  --muted: #62675f;
+  --border: #d9ddd5;
+  --accent: #315d4c;
+  --soft: #eef1eb;
+  --error: #9e2925;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    sans-serif;
+  line-height: 1.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+input,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: wait;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.6rem, 4vw, 2rem);
+  font-weight: 650;
+}
+
+.shell {
+  width: min(1100px, calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+.site-header {
+  margin-bottom: 2.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header .shell {
+  padding-block: 1.1rem;
+}
+
+.brand {
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding-block: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.button {
+  min-height: 44px;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  background: var(--accent);
+  color: var(--surface);
+}
+
+.button.secondary {
+  border-color: var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.button:hover {
+  filter: brightness(0.96);
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.error {
+  color: var(--error);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.tag-list li {
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+}
+
+.tag-list a {
+  color: inherit;
+}
+
+.thumbnail {
+  overflow: hidden;
+  background: var(--soft);
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.placeholder {
+  display: grid;
+  min-height: 100%;
+  aspect-ratio: 16 / 9;
+  place-items: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 10;
+  padding: 0.6rem 1rem;
+  transform: translateY(-160%);
+  background: var(--surface);
+  border: 1px solid var(--accent);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --background: #1c1f1c;
+    --surface: #242824;
+    --text: #e4e8e1;
+    --muted: #b0b8ac;
+    --border: #454c42;
+    --accent: #a3c9b3;
+    --soft: #2b302a;
+    --error: #ffb2a9;
+  }
+
+  .button:not(.secondary) {
+    color: #17271e;
+  }
+}
+
+@media (max-width: 480px) {
+  .shell {
+    width: calc(100% - 2rem);
+  }
+
+  .site-header {
+    margin-bottom: 1.5rem;
+  }
+}

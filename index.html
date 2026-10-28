@@ -1,0 +1,110 @@
+<!-- File: index.html -->
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'"
+    >
+    <meta name="description" content="記事を日時とタグから探せる、小さな記事サイト。">
+    <title>記事一覧 | 記事帖</title>
+    <link rel="stylesheet" href="./app/styles/common.css">
+    <link rel="stylesheet" href="./app/styles/index.css">
+    <script type="module" src="./app/scripts/index.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="./index.html">記事帖</a>
+      </div>
+    </header>
+
+    <main id="main" class="shell">
+      <h1>記事一覧</h1>
+
+      <form id="filters" class="filters" aria-label="記事の絞り込み">
+        <fieldset id="filter-fields" disabled>
+          <legend class="sr-only">表示条件</legend>
+
+          <fieldset class="tag-fieldset">
+            <legend>タグ <span class="hint">複数選択はOR検索</span></legend>
+            <div id="tag-options" class="tag-options"></div>
+          </fieldset>
+
+          <div class="filter-row">
+            <label class="field">
+              <span>開始日</span>
+              <input
+                id="date-from"
+                name="from"
+                type="date"
+                min="1000-01-01"
+                max="9999-12-31"
+                aria-describedby="date-help filter-error"
+              >
+            </label>
+
+            <label class="field">
+              <span>終了日</span>
+              <input
+                id="date-to"
+                name="to"
+                type="date"
+                min="1000-01-01"
+                max="9999-12-31"
+                aria-describedby="date-help filter-error"
+              >
+            </label>
+
+            <label class="field">
+              <span>並べ替え</span>
+              <select id="sort-order" name="sort">
+                <option value="newest">新しい順</option>
+                <option value="oldest">古い順</option>
+              </select>
+            </label>
+
+            <button class="button secondary" type="reset">条件をリセット</button>
+          </div>
+
+          <p id="date-help" class="hint">
+            日付は日本時間。開始日・終了日を含みます。
+          </p>
+          <p id="filter-error" class="error" role="alert" hidden></p>
+        </fieldset>
+      </form>
+
+      <p id="result-count" class="result-count" role="status">
+        記事を読み込んでいます…
+      </p>
+
+      <button id="retry" class="button" type="button" hidden>再読み込み</button>
+
+      <ul id="article-list" class="article-grid" aria-busy="true"></ul>
+
+      <div class="load-more">
+        <button
+          id="load-more"
+          class="button secondary"
+          type="button"
+          aria-controls="article-list"
+          hidden
+        >
+          さらに表示
+        </button>
+      </div>
+
+      <noscript>
+        <p class="error">記事一覧を表示するにはJavaScriptを有効にしてください。</p>
+      </noscript>
+    </main>
+
+    <footer class="site-footer shell">
+      <small>日時の表示：日本時間（JST）</small>
+    </footer>
+  </body>
+</html>

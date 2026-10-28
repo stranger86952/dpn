@@ -1,0 +1,167 @@
+/* File: app/styles/index.css */
+
+.filters {
+  padding: 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+}
+
+.filters fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.filters legend {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.tag-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tag-option {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 38px;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.tag-option:has(input:checked) {
+  border-color: var(--accent);
+  background: var(--soft);
+}
+
+.tag-option input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.85rem;
+  margin-top: 1.15rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.3rem;
+  min-width: 150px;
+  font-size: 0.85rem;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.field input[aria-invalid="true"] {
+  border-color: var(--error);
+}
+
+.filters p:last-child {
+  margin-bottom: 0;
+}
+
+.result-count {
+  margin-block: 1.5rem 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.7rem 1.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  height: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.card-link {
+  display: block;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.card-link:hover h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.card .thumbnail {
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.card .thumbnail img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 0.8rem 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.card time {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.load-more {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .article-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .field {
+    flex: 1 1 140px;
+  }
+
+  .filters {
+    padding: 0.9rem;
+  }
+}
