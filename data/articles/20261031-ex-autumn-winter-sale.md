@@ -3,6 +3,7 @@ title: "東海道新幹線沿線の人気施設が10％OFF — 「EX旅先予約
 datetime: "2026-10-31T05:05:00+09:00"
 tags:
   - geography
+thumbnailAlt: "東海道新幹線を走るN700S（イメージ写真）"
 ---
 
 JR東海とJR東海ツアーズは、エクスプレス予約・スマートEX会員向けサービス「EX旅先予約」で、「EX旅先予約 秋冬の大セール」を2026年10月30日（金）から開催しています。関東・中部・関西の東海道新幹線沿線にある人気観光施設の入場券や体験プログラムが、会員限定クーポンで10％OFFになります。
@@ -35,3 +36,5 @@ JR東海とJR東海ツアーズは、エクスプレス予約・スマートEX�
 - [人気施設の入場券や体験コンテンツ が10％OFF！「ＥＸ旅先予約　秋冬の大セール」を開催](http://www.excite.co.jp/news/article/Prtimes_2026-10-30-26909-161/)
 - [秋冬の楽しい旅をお得に！東海道新幹線沿線の人気施設が10％OFF](https://news.3rd-in.co.jp/article/b46d7cd2-d42b-11f1-bc6c-9ca3ba09c411)
 - [ＥＸ旅先予約 秋冬の大セール 特設ページ](https://travel.jr-central.co.jp/plan/tokushu/ex/autumnsale/)
+
+写真：MaedaAkihiko / Wikimedia Commons, CC BY-SA 4.0

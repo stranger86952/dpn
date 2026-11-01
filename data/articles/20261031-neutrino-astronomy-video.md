@@ -3,6 +3,7 @@ title: "「南極の氷で宇宙を見る」— 2026年ノーベル物理学賞�
 datetime: "2026-10-31T05:05:00+09:00"
 tags:
 - youtube
+thumbnailAlt: "南極のIceCubeニュートリノ観測所"
 ---
 
 2026年のノーベル物理学賞は、南極の氷を巨大な観測装置に変えた「アイスキューブ（IceCube）」の生みの親、フランシス・ハルツェン氏に贈られました。その受賞テーマである「ニュートリノ天文学」を、約14分のゆっくり解説動画で紹介します。
@@ -35,3 +36,5 @@ tags:
 
 - [フランシス・ハルゼンがノーベル物理学賞受賞 アイスキューブでニュートリノ天文学を拓く](https://biz.chosun.com/jp/jp-science/2026/10/06/ZL2WIFXGUBHDRIRBXH43FD4CKE/)
 - [南極の氷で宇宙を見る ニュートリノ天文学とは？ 2026年ノーベル物理学賞（動画の説明欄・参考文献）](https://www.youtube.com/watch?v=BwyGA-oXk6o)
+
+写真：Christopher Michel / Wikimedia Commons, CC BY-SA 4.0

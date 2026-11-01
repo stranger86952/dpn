@@ -3,6 +3,7 @@ title: "「時が止まった屋島の鉄道遺産」— 琴電屋島駅とケ�
 datetime: "2026-11-01T05:08:38+09:00"
 tags:
   - youtube
+thumbnailAlt: "琴電屋島駅の駅舎"
 ---
 
 香川県の屋島で、レトロな駅舎とケーブルカーの遺構を静かに巡る散歩旅の動画を紹介する。チャンネル「ARIGATOU 旅日和」による、知られざる場所やローカル線、レトロな風景をのんびりと巡るVLOGの一つである。
@@ -16,3 +17,5 @@ BGMは「君と歩く、旅の道。」（アーティスト：のるさん）�
 動画はこちら：
 
 - [時が止まった屋島の鉄道遺産。レトロな駅舎とケーブルカー跡を巡る静かな散歩旅（ARIGATOU 旅日和 / YouTube）](https://www.youtube.com/watch?v=4y5PBrMArXQ)
+
+写真：LERK / Wikimedia Commons, CC BY 3.0

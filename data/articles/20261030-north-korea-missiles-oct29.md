@@ -3,6 +3,7 @@ title: "北朝鮮、短距離弾道ミサイル約10発を発射 — 日本海�
 datetime: "2026-10-30T05:08:14+09:00"
 tags:
   - news
+thumbnailAlt: "北朝鮮の軍事パレードに登場した弾道ミサイル（2013年撮影、イメージ写真）"
 ---
 
 北朝鮮は2026年10月29日昼ごろ、東部・元山付近から短距離弾道ミサイル約10発を日本海に向けて発射しました。韓国軍合同参謀本部が明らかにしたもので、ミサイルは約250キロ飛行し、日本の排他的経済水域（EEZ）の外に落下したとみられています。日本の周辺の航空機や船舶への被害は確認されていません。
@@ -21,3 +22,5 @@ tags:
 
 - [(Update 2) N. Korea Fires Some 10 Ballistic Missiles into Sea of Japan（nippon.com）](https://www.nippon.com/en/articles/-/56598)
 - [North Korea fires off around a dozen ballistic missiles（The Japan Times）](https://www.japantimes.co.jp/news/2026/10/29/asia-pacific/north-korea-ballistic-missile/)
+
+写真：Stefan Krasowski / Wikimedia Commons, CC BY 2.0（2013年の軍事パレードで撮影された資料写真）

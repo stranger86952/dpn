@@ -3,6 +3,7 @@ title: "日銀、物価2％目標の到達を判断 — 導入から約14年、�
 datetime: "2026-10-31T05:05:00+09:00"
 tags:
   - news
+thumbnailAlt: "日本銀行本店（イメージ写真）"
 ---
 
 日本銀行は2026年10月30日の金融政策決定会合で、一時的な変動要因を除いた「基調的な物価上昇率」が目標の2％に到達したと判断しました。2013年1月の目標導入から約14年をかけた節目で、金融政策の主眼は物価を押し上げる方向から、2％程度で安定させる方向へ移ります。政策金利は1.25％程度で据え置かれました。
@@ -30,3 +31,5 @@ tags:
 - [日銀、物価2％目標到達　デフレ脱却目指し14年越し　政策金利は据え置き](https://www.sankei.com/article/20261030-A2IKBKF2XRIYJHJ6V5OQTL42PI/)
 - [日銀、基調物価2％到達と判断　14年越しで政策転換の節目に、利上げは見送り](https://www.sankei.com/article/20261030-6KX5G6IR5NIEHA4MPERYTBDJHI/?outputType=asynd)
 - [物価上昇率２％到達と日銀判断、今後は上振れリスク対応に力点…植田和男総裁「政策委員９人全員の判断一致」](https://news.infoseek.co.jp/article/yomiuri_20261030_gyt1t00307/?l-id=HP4U_TopMainTopic_busi-econ_10)
+
+写真：Suicasmo / Wikimedia Commons, CC BY-SA 4.0

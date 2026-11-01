@@ -3,6 +3,7 @@ title: "国連第一委員会、日本提出の核廃絶決議案を採択 — 3
 datetime: "2026-10-30T05:08:14+09:00"
 tags:
   - news
+thumbnailAlt: "国連総会の議場（イメージ写真）"
 ---
 
 国連総会の第一委員会（軍縮・国際安全保障を扱う委員会）は2026年10月27日（現地時間）、日本が提出した核軍縮決議案「核兵器のない世界に向けた共通のステップ」を採択しました。賛成150カ国、反対7カ国、棄権25カ国で、日本の決議案が採択されるのは33年連続です。
@@ -24,3 +25,5 @@ tags:
 - [国連総会第一委員会への日本提出の核兵器廃絶決議案の採択について（茂木外務大臣談話）](https://www.mofa.go.jp/press/statement/pageite_000001_01888.html)
 - [UN adopts Japan's resolution for nuclear disarmament（NHK WORLD-JAPAN）](https://www3.nhk.or.jp/nhkworld/news/20261028de67077/)
 - [U.N. Panel Adopts Japan-Led Nuke Abolition Resolution（nippon.com）](https://www.nippon.com/en/articles/-/56462)
+
+写真：Mojnsen / Wikimedia Commons, CC BY-SA 4.0
